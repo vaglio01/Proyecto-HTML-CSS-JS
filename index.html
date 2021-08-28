@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="./css/estilos.css" rel="stylesheet">
+        <link href="./css/lightbox.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/77406ceaec.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width = device-width, initial-scale=1" >
+
+        <title> ukmarchitectureV2</title>
+    </head>
+
+    <body>
+           <header>
+                    <div id="marca">
+                         <img  src = "./img/Log_1.jpg"  alt = "logo Principal" >
+                    </div>             
+                         <nav id="botoneraNav">
+                              <a href="index.html">Proyecto</a>
+                              <a href="Cursos.html">Cursos</a>
+                              <a href="viajes.html">Viajes</a>
+                              <a href="contacto.html">Contactos</a>
+                         </nav>
+                         <nav id="botoneraContactos">
+                              <i class="fas fa-at"></i>
+                              <i class="fab fa-facebook-square"></i>
+                              <i class="fab fa-instagram"></i>
+                              <i class="fab fa-linkedin"></i>
+                         </nav>
+                    <div id = "videoprincipal">
+                         <video src="./Video/video_1.mp4" id="videoI"> </video>
+                     
+                     </div>
+                     <nav id="botoneraRep">
+                         <a  onclick="mover(-20)"><img src="images/fast_rewind_black_24dp.svg" alt="Retoceder"></a>
+                         <a  id ="rep" onclick="reproducir()"><img src="images/play_arrow_black_24dp.svg" alt="Play"></a>
+                         <a  onclick="parar()"><img src="images/stop_black_24dp.svg" alt="Stop"></a>
+                         <a  onclick="mover(20)"><img src="images/fast_forward_black_24dp.svg" alt="Adelantar"></a></a>
+                    </nav>
+           </header>
+
+           <section>
+               <div id="caja1_izq">
+                <a href="./img/img1.jpg" data-lightbox="image-1"><img  src = "./img/img1.jpg"  alt = "Casa de ModerOne" ></a>
+               </div>
+               <div id="caja1_cent">
+                    <a href="./img/img2.jpg" data-lightbox="image-1"> <img  src = "./img/img2.jpg"  alt = "Casa de Moder" > </a>
+               </div>
+               <div id="caja1_der">
+                    <a href="./img/img3.jpg" data-lightbox="image-1"><img  src = "./img/img3.jpg"  alt = "Casa de Moder" > </a>
+               </div>
+
+               <div id="caja2_izq">
+                    <img  src = "./img/Log_2.jpg"  alt = "Casa de ModerOne" >
+               </div>
+               <div id="caja2_cent">
+                    <a href="./img/img4.jpg" data-lightbox="image-1"><img  src = "./img/img4.jpg"  alt = "Casa de ModerOne" > </a>
+               </div>
+               <div id="caja2_der">
+                    <img  src = "./img/img5.jpg"  alt = "Casa de ModerOne" > 
+               </div>
+
+               <div id="caja3_izq">
+                    <a href="./img/img6.jpg" data-lightbox="image-1"><img  src = "./img/img6.jpg"  alt = "Casa de ModerOne" > </a>
+               </div>
+               <div id="caja3_cent">
+                    <img  src = "./img/estatico1.gif"  alt = "Casa de ModerOne" >
+               </div>
+               <div id="caja3_der">
+                    <a href="./img/img6_2.jpg" data-lightbox="image-1"><img  src = "./img/img6_2.jpg"  alt = "Casa de ModerOne" ></a>
+               </div>
+
+               <div id="caja4_izq">
+                    <a href="./img/img7.jpg" data-lightbox="image-1"><img  src = "./img/img7.jpg"  alt = "Casa de ModerOne" > </a>
+               </div>
+               <div id="caja4_cent">
+                    <a href="./img/img8.jpg" data-lightbox="image-1"><img  src = "./img/img8.jpg"  alt = "Casa de ModerOne" > </a>
+               </div>
+               <div id="caja4_der">
+                    <img  src = "./img/estatico2.gif"  alt = "Casa de ModerOne" >
+               </div>
+
+               <div id="caja5_izq">
+                    <a href="./img/img9.jpg" data-lightbox="image-1"><img  src = "./img/img9.jpg""  alt = "Casa de ModerOne" > </a>
+               </div>
+               <div id="caja5_der">
+                    <a href="./img/img10.jpg" data-lightbox="image-1"> <img  src = "./img/img10.jpg""  alt = "Casa de ModerOne" > </a>
+               </div>
+           </section>
+           
+           <footer>
+            <div id="marca_1">
+               <img  src = "./img/Log_3.jpg"  alt = "logo Principal" >
+            </div>
+            <div id="footer1_cent">
+               <ul> <strong>Ayuda</strong> 
+                    <li>Términos y condiciones</li>
+                    <li>Cambios y devoluciones</li>
+                    <li>Política de privacidad</li>
+                </ul>
+            </div>
+            <div id="footer1_izq">
+               <ul> <strong>Contacto</strong> 
+                    <li> (011) 155039-4288</li>
+                    <li>UKMarchitecture@gmail.com</li>
+                </ul>
+            </div>
+
+            <div id="footer2">
+               <div id="footer2_der"> <strong>© UKMarchitecture 2021</strong> </div>
+               <div id="footer2_izq"><strong class="footer_mark2">Create by CAI</strong></div>
+            </div>
+           </footer>
+           <script type="text/javascript" src="js/lightbox.min.js"></script>
+           <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+           <script type="text/javascript" src="js/controlVideo.js"></script>
+    </body>
+</html>

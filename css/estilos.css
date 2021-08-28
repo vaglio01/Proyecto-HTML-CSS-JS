@@ -1,0 +1,917 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+header , section , footer {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*HEADER*/
+header {
+    height: 647px;
+    background-color: rgb(121, 128, 138); 
+}
+
+#headerone{
+    width: 960px;
+}
+
+#marca{
+    width: 245px;
+    height: 70px;
+    margin: 5px ;
+    float: left;
+}
+
+
+#botoneraNav{
+    color: #fff;
+    width: 403px;
+    height: 40px;
+    float: left;
+    text-align: end;
+    margin: 28px 0px 0px 100px;
+    font-size: 18px;
+}
+#botoneraRep{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#botoneraContactos{
+    color: #fff;
+    width: 150px;
+    height: 25px;
+    float: right;
+    text-align: center;
+    margin: 25px 0px 14px 50px;
+}
+
+a,i {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px;
+}
+
+#botoneraNav a:hover{
+    text-decoration: underline #ffffff;
+}
+
+#videoprincipal {
+    width: 955px;
+    height: 540px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+#videoprincipal video{
+   width: 100%;
+   margin: 0px 5px 5px 1px;
+   
+}
+
+/*SECTION*/
+
+section {
+    height: 1015px;
+    background-color:#fff ;
+    margin-top: 5px;
+}
+
+#caja1_izq{
+    width: 313px;
+    height: 200px;
+    float: left;
+    margin: 0px 5px 5px 0px;
+}
+#caja1_cent{
+    width: 308px;
+    height: 200px;
+    float: left;
+    margin: 0px 5px 5px 0px;
+}
+
+#caja1_der{
+    width: 324px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 5px 5px;
+}
+#caja1_der  img {
+    width: 100%;
+}
+
+#caja2_izq{
+    width: 480px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+#caja2_cent{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0px 5px 3px 5px;
+}
+#caja2_der{
+    width: 160px;
+    height: 200px;
+    float: right;
+    margin: 0px 0px 3px 5px;
+}
+
+#caja3_izq{
+    width: 345px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+#caja3_cent{
+    width: 249px;
+    height: 200px;
+    float: left;
+    margin: 0px 5px 3px 5px;
+}
+
+#caja3_der{
+    width: 356px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+
+#caja3_der  img {
+    width: 100%;
+}
+
+#caja4_izq{
+    width: 345px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+#caja4_cent{
+    width: 356px;
+    height: 200px;
+    float: left;
+    margin: 0px 5px 3px 5px;
+}
+
+#caja4_der{
+    width: 249px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+
+#caja4_izq  img {
+    width: 100%;
+}
+
+#caja4_cent  img {
+    width: 100%;
+}
+
+#caja4_der  img {
+    width: 100%;
+}
+
+#caja5_izq{
+    width: 472px;
+    height: 200px;
+    float: left;
+    margin:  0px 0px 3px 0px;
+}
+
+#caja5_der{
+    width: 483px;
+    height: 200px;
+    float: right;
+    margin:  0px 0px 3px 0px;
+}
+
+#caja5_der  img {
+    width: 100%;
+}
+/*FOOTER*/
+
+footer {
+    height: 160px;
+    background-color: #79808A; 
+    color: #fff;
+    margin-top: 3px;
+    font-family: 'Old Standard TT', serif;
+}
+
+#marca_1{
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+
+#marca_1  img {
+    width: 100%;
+}
+
+#footer1_cent{
+    width: 369px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin: 0px 5px 3px 5px;
+}
+
+#footer1_izq{
+    width: 330px;
+    height: 100px;
+    text-align: center;
+    float: right;
+    margin: 0px 0px 3px 0px;
+}
+
+#footer1_cent li, #footer1_izq li{
+    list-style: none ;
+}
+
+#footer2{
+    width: 950px;
+    height: 25px;
+    font-size: 15px;
+    display: inline-block;
+    border-top:  1px solid rgba(238, 232, 232, 0.972);
+    color:  rgba(255,255,255,0.44);
+}
+
+#footer2_der{
+    width: 410px;
+    height: 25px;
+    float: left;
+    margin: 25px 15px 3px 1pc;
+}
+
+#footer2_izq{
+    width: 410px;
+    height: 25px;
+    float: right;
+    margin: 25px 15px 3px 1pc;
+    text-align: right; 
+}
+
+/*CONTACTO*/
+#headerContactos {
+    height: 85px;
+
+}
+#sectionContac{
+    height: 489px;
+}
+#fondoForm{
+    background-image: url(../img/img_pirncipal.jpg);
+    opacity: 0.4;
+}
+
+h2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold; 
+    margin: 0px;
+    
+}
+form {
+    width: 960px;
+    height: auto;
+    float: right;
+    text-align: center;
+    font-weight: bold; 
+}
+label{
+    width: 600px;
+    height: 20px;
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin:  30px auto 0px auto;
+    font-weight: bold; 
+
+}
+input[type=text] ,input[type=email]  {
+    width: 600px;
+    height: 23px;
+    display: block;
+    text-align: left;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid #fffafa;
+     background-color: rgba(247, 250, 253, 0.445); 
+    font-weight: bold;
+    -moz-box-shadow:10px 10px 5px #000000;
+    -webkit-box-shadow:10px 10px 5px #000000;
+    box-shadow:10px 10px 5px #000000;
+    
+    
+}
+
+textarea {
+    width: 600px;
+    height: 130px;
+    display: block;
+    text-align: left;
+    margin: auto;
+    -moz-box-shadow:10px 10px 5px #000000;
+    -webkit-box-shadow:10px 10px 5px #000000;
+    box-shadow:10px 10px 5px #000000;
+}
+
+/*BOTONES*/
+#btnEnviar{
+    width: 180px;
+    height: 30px;
+    display:inline-block;
+    background: #000;
+    border: none;
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+/*Viajes*/
+
+#sectionViajes{
+    height: 1230px;
+    width: 960px;
+}
+
+.banner{
+    height: 300px;
+    position: relative;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/fondoviaje.jpg) center/cover;
+    opacity: 0.3; 
+}
+
+.banner__title {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative; 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300; 
+    padding-top: 110px;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  
+span {
+    display: block;
+}
+
+
+  p.numero {
+    color: #2c2c2c;
+    font-size: 2em;
+    display: block;
+    margin: 0 0 10px 0;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #subTitle{
+    height: 50px;
+    font-size: 35px;
+    font-family: "Playfair Display",Sans-serif;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: #79808A;
+  }
+
+.contenedorViajeIzq{
+      height: 420px;
+      width: 310px;
+      float: left;
+      margin: 0px 5px 10px 0px;
+      text-align: center;
+}
+
+.contenedorViajeCen{
+    height: 420px;
+    width: 310px;
+    float: left;
+    margin: 0px 5px 10px 0px;
+    text-align: center;
+}
+
+
+.contenedorViajeDer{
+    height: 420px;
+    width: 310px;
+    float: left;
+    margin: 0px 0px 10px 5px;
+    text-align: center;
+}
+
+.pViaje{
+ margin: 0;
+}
+
+/*  CURSOS */
+#seccion_curso{
+    height: 950px;
+}
+#Cursos{
+    height: 95%;
+}
+.contenedor {
+    margin: 0 auto;
+    text-align: center;
+}
+.tres-columnas {
+	display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+  
+   
+}
+
+.tres-columnas p h1{
+ color: #fffafa;
+}
+
+
+.entrada-curso{
+    flex: 0 0 calc(33.3% - 12px);
+}
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    header , section , footer {
+        width: 580px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    /*HEADER*/
+    header {
+        height: 410px;
+    }
+    
+    #headerone{
+        width: 580px;
+    }
+    
+    #marca{
+        width: 150px;
+
+    }
+
+    #marca img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    
+    #botoneraNav{
+        width: 306px;
+        margin: 28px 0px 0px 0px;
+        font-size: 18px;
+    }
+    
+    
+    #botoneraContactos{
+        color: #fff;
+        width: 108px;
+        font-size: 14px;
+        margin: 25px 0px 14px 0px;
+    }
+    
+    
+    #videoprincipal {
+        width: 580px;
+
+      }
+    
+    /*SECTION*/
+    
+    section {
+        height: 791px;
+        background-color:#fff ;
+        margin-top: 5px;
+    }
+    
+    #caja1_izq{
+        width: 190px;
+        height: 122px;
+        margin: 0px 2px 5px 0px;
+    }
+
+    #caja1_izq img {
+        width: 100%;
+    }
+    #caja1_cent{
+        width: 190px;
+        height: 122px;
+        margin: 0px 2px 5px 0px;
+    }
+    #caja1_cent img {
+        width: 100%;
+    }
+    #caja1_der{
+        width: 190px;
+        height: 122px;
+        margin: 0px 0px 5px 2px;
+    }
+     #caja1_der img {
+        width: 100%;
+    }
+    
+
+    #caja2_izq {
+        width: 580px;
+        height: 100px;
+
+    }
+    #caja2_izq img{
+        width: 100%;
+        height: 100px;
+    } 
+    #caja2_cent{
+        width: 190px;
+        height: 122px;
+        margin: 0px 2px 5px 0px;
+    }
+
+    #caja2_cent img {
+        width: 100%;
+    }
+
+    #caja2_der{
+        width: 190px;
+        height: 122px;
+        float: left;
+        margin: 0px 0px 5px 2px;
+    }
+
+    #caja2_der img {
+        width: 100%;
+        height: 100%;
+    } 
+    
+    #caja3_izq{
+        width: 190px;
+        height: 122px;
+        float: right;
+    }
+
+    #caja3_izq img {
+        width: 100%;
+        height: 100%;
+    } 
+    #caja3_cent{
+        width: 291px;
+        height: 150px;
+        margin: 2px 0px 3px 0px;
+    }
+
+    #caja3_cent  img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #caja3_der{
+        width: 285px;
+        height: 150px;
+        float: right;
+        margin: 2px 0px 3px 0px;
+    }
+    
+    #caja3_der  img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #caja4_izq{
+        width: 190px;
+        height: 122px;
+        margin: 0px 2px 5px 0px;
+    }
+
+
+    #caja4_cent{
+        width: 190px;
+        height: 122px;
+        margin: 0px 2px 5px 0px;
+    }
+
+    #caja4_der{
+        width: 190px;
+        height: 122px;
+        margin: 0px 0px 5px 2px;
+    }
+ 
+    #caja4_izq  img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #caja4_cent  img {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    #caja4_der  img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #caja5_izq{
+        width: 291px;
+        height: 150px;
+        margin: 2px 0px 3px 0px;
+    }
+
+    #caja5_izq  img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #caja5_der{
+        width: 285px;
+        height: 150px;
+        float: right;
+        margin: 2px 0px 3px 0px;
+    }
+    
+    #caja5_der  img {
+        width: 100%;
+        height: 100%;
+    }
+    /*FOOTER*/
+    
+    footer {
+   
+        font-size: 12px;
+    }
+    
+    #marca_1{
+        width: 150px;
+        height: 100px;
+    }
+    
+    #marca_1  img {
+        width: 100%;
+    }
+    
+    #footer1_cent{
+        width: 207px;
+        margin: 0px;
+    }
+    
+    #footer1_izq{
+        width: 219px;
+    }
+    
+
+    #footer2{
+        width: 580px;
+    }
+    
+    #footer2_der{
+        width: 250px;
+        height: 25px;
+    }
+    
+    #footer2_izq{
+        width: 250px;
+    }
+    
+    /*CONTACTO*/
+      #sectionContac{
+        height: 489px;
+    }
+
+    
+    form {
+        width: 580px;
+        height: 600px;
+
+    }
+    label{
+        width: 500px;
+        height: 20px;
+  
+    
+    }
+    input[type=text] ,input[type=email]  {
+        width: 550px;
+
+        
+    }
+    
+    textarea {
+        width: 550px;
+
+    }
+
+    /*Viajes*/
+    
+    #sectionViajes{
+        height: 2884px;
+        width: 580px;
+    }
+     
+
+    .contenedorViajeIzq{
+          height: 410px;
+          width: 508px;
+ 
+    }
+    
+    .contenedorViajeCen{
+        height: 410px;
+        width: 508px;
+    }
+    
+    
+    .contenedorViajeDer{
+        height: 410px;
+        width: 508px;
+    }
+
+    /*CURSOS*/
+    #seccion_curso{
+        height: 2500px;
+    }
+    #Cursos{
+        height: 95%
+    }
+    .tres-columnas {
+       justify-content: center;
+    }
+} 
+/* FIN 600px por 1023*/ 
+
+@media all and  (max-width: 599px) {
+
+    header , section , footer {
+        width: 90%;
+    }
+    
+    /*HEADER*/
+    header {
+        height: auto;
+    }
+    
+    #headerone{
+        width: 90%;
+    }
+    
+    #marca, #botoneraNav, #botoneraContactos, #videoprincipal, #caja1_izq,#caja1_cent,#caja1_der,
+    #caja2_izq, #caja2_cent, #caja2_der, #caja3_izq, #caja3_cent, #caja3_der, #caja4_izq, #caja4_cent, #caja4_der, #caja5_izq, #caja5_der
+    {
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+    #botoneraNav{
+        margin: 0PX;
+    }
+
+     #botoneraContactos{
+         display: none;
+     }
+
+    a,i {
+        display: block;
+        width: 100%;
+        margin: 0PX;
+        text-align: center;
+        padding: 1px;
+    }
+    
+
+    #videoprincipal video{
+       width: 100%;
+       
+    }
+    #caja2_izq img, #caja2_cent img, #caja2_der img, #caja3_izq img, #caja3_cent img, #caja3_der img, #caja4_izq img, #caja4_cent img, #caja4_der img, #caja5_izq img, #caja5_der img{
+        height: auto;
+        width: 100%;
+    }
+    
+    /*SECTION*/
+    
+    section {
+        height: auto;
+        width: 90%;
+    }
+
+
+    /*FOOTER*/
+    
+    footer {
+        height: auto;
+        width: 90%;
+        margin-left: 15px;
+        display: inline-block;
+    }
+    
+
+    #marca_1, #footer1_cent, #footer1_izq, #footer2, #footer2_der,#footer2_izq {
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+
+
+    
+    #footer1_cent ul, #footer1_izq ul{
+       padding: 0px;
+
+    } 
+    
+    /*CONTACTO*/
+    #headerContactos,#sectionContac {
+        height: auto;
+        width: 90%;
+    }
+   
+    #fondoForm{
+        width: 100%;
+        height: auto;
+    }
+    
+    form,label {
+        width: 100%;
+        height: auto;
+    
+    }
+
+    input[type=text] ,input[type=email] , textarea{
+        width: 90%;
+        height: auto;
+    }
+
+    /*Viajes*/
+    
+    #sectionViajes{
+        width: 90%;
+    }
+    
+
+    
+      #subTitle{
+        height: auto;
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 2px;
+        margin-top: 0px;
+
+      }
+    
+    .contenedorViajeIzq, .contenedorViajeCen,.contenedorViajeDe {
+        height: auto;
+        width: 100%;
+    }
+
+    .contenedorViajeIzq img, .contenedorViajeCen img,.contenedorViajeDe img {
+        height: auto;
+        width: 100%;
+    }
+    
+    /*CURSOS*/
+    #seccion_curso{
+        height: 2425px;
+    }
+    .tres-columnas {
+        justify-content: center;
+     }
+    
+
+} 
+/* FIN 599px */ 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="./css/estilos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/77406ceaec.js" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+        <meta name="viewport" content="width = device-width, initial-scale=1" >
+        
+        <title> ukmarchitectureV2</title>
+    </head>
+
+    <body>
+           <header id="headerContactos">
+                    <div id="marca">
+                         <img  src = "./img/Log_1.jpg"  alt = "logo Principal" >
+                    </div>
+                         <nav id="botoneraNav">
+                              <a href="index.html">Proyecto</a>
+                              <a href="Cursos.html">Cursos</a>
+                              <a href="viajes.html">Viajes</a>
+                              <a href="contacto.html">Contactos</a>
+                         </nav>
+                         <nav id="botoneraContactos">
+                              <i class="fas fa-at"></i>
+                              <i class="fab fa-facebook-square"></i>
+                              <i class="fab fa-instagram"></i>
+                              <i class="fab fa-linkedin"></i>
+                         </nav>
+           </header>
+
+           <section  id="sectionViajes">
+               <div class="banner">
+                    <div class=" banner__title">
+                         <h2>Proximo viaje <br> EUROPA EN:</h2>
+                         <p id="clock" class="numero"></p>   
+                    </div>
+               </div>
+               <div>
+                     <h2 id="subTitle"> ¿A qué país de Europa quieres ir? </h2>
+               </div>
+               <div>
+                    <span class="1">
+                         <div class="contenedorViajeIzq colortexto"  onmouseover="pintar(this,' #d3d9e2')" onmouseout="pintar(this,'#fff')" >
+                                  <a href="#" id="0" onclick="elejir(this.id)"><img  src = "./img/muroBerlin.jpg"  alt = "Casa de ModerOne" ></a>
+                                   <h3>Alemania</h3>
+                                   <img  src = "./img/Alemania.png"  alt = "Casa de ModerOne">
+                                   <p class="pViaje">La historia y la rebeldía se dan la mano en Berlín, una de las ciudades más cosmopolitas de Europa. </p>
+                         </div>
+                    </span>
+                    <span class="2">
+                         <div class="contenedorViajeCen colortexto"  onmouseover="pintar(this,' #d3d9e2')" onmouseout="pintar(this,'#fff')" >
+                              <a href="#" id="1" onclick="elejir(this.id)"><img  src = "./img/coliseo.jpg"  alt = "Casa de ModerOne" ></a>
+                              <h3>Italia</h3>
+                              <img  src = "./img/Italia.png"  alt = "Casa de ModerOne" >
+                              <p class="pViaje" >El país del Louvre, la baguette y la torre Eiffel. Anímate a descubrir lo mejor de Francia. </p>
+                         </div>
+                    </span>
+                    <span class="3">
+                         <div class="contenedorViajeDer colortexto"  onmouseover="pintar(this,' #d3d9e2')" onmouseout="pintar(this,'#fff')" >
+                              <a href="#" id="2" onclick="elejir(this.id)"><img  src = "./img/Louvre.jpg"  alt = "Casa de ModerOne" ></a>
+                              <h3>Francia</h3>
+                              <img  src = "./img/Francia.png"  alt = "Casa de ModerOne">
+                              <p class="pViaje">Roma es como un libro de fábulas, en cada página te encuentras con un prodigio  </p>
+                         </div>
+                    </span>
+                    <span class="4">
+                         <div class="contenedorViajeIzq colortexto"  onmouseover="pintar(this,' #d3d9e2')" onmouseout="pintar(this,'#fff')" >
+                              <a href="#" id="3" onclick="elejir(this.id)"><img  src = "./img/LondresImg.jpg"   ></a>
+                              <h3>Inglaterra</h3>
+                              <img  src = "./img/Inglaterra.jpg"  alt = "Casa de ModerOne"  >
+                              <p class="pViaje">Londres es como un sueño oscuro y frío a veces </p>
+                         </div>
+                    </span>
+                    <span class="5">
+                         <div class="contenedorViajeCen colortexto"  onmouseover="pintar(this,' #d3d9e2')" onmouseout="pintar(this,'#fff')" >
+                              <a href="#" id="4" onclick="elejir(this.id)"><img  src = "./img/praga.jpg"  alt = "Casa de ModerOne" ></a>
+                              <h3>Repùblica Checa</h3>
+                              <img  src = "./img/RepublicaCheca.png"  alt = "Casa de ModerOne" >
+                              <p class="pViaje">La capital checa rebosa belleza por los cuatro costados entre edificios y calles de piedra con ambiente medieval </p>
+                         </div>
+                    </span>
+                    <span class="6">
+                         <div class="contenedorViajeDer colortexto"  onmouseover="pintar(this,' #d3d9e2')" onmouseout="pintar(this,'#fff')" >
+                              <a href="#" id="5" onclick="elejir(this.id)"><img  src = "./img/moscu.jpg"  alt = "Casa de ModerOne" ></a>
+                              <h3>Rusia</h3>
+                              <img  src = "./img/rusia.jpg"  alt = "Casa de ModerOne"  >
+                              <p class="pViaje">Moscu uno de los lugares mas hermosos del mundo. Acompañame </p>
+                         </div>
+                    </span>    
+           </div>  
+           </section>           
+           <footer>
+            <div id="marca_1">
+               <img  src = "./img/Log_3.jpg"  alt = "logo Principal" >
+            </div>
+            <div id="footer1_cent">
+               <ul> <strong>Ayuda</strong> 
+                    <li>Términos y condiciones</li>
+                    <li>Cambios y devoluciones</li>
+                    <li>Política de privacidad</li>
+                </ul>
+            </div>
+            <div id="footer1_izq">
+               <ul> <strong>Contacto</strong> 
+                    <li> (011) 155039-4288</li>
+                    <li>UKMarchitecture@gmail.com</li>
+                </ul>
+            </div>
+
+            <div id="footer2">
+               <div id="footer2_der"> <strong>© UKMarchitecture 2021</strong> </div>
+               <div id="footer2_izq"><strong class="footer_mark2">Create by CAI</strong></div>
+            </div>
+           </footer>
+           <script type="text/javascript" src="js/jsViajes.js"></script>
+           <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    </body>
+</html>
